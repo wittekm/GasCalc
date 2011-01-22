@@ -19,7 +19,8 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+	purchases = [[NSMutableArray alloc] init];
+	
     // Override point for customization after application launch.
 
     // Add the tab bar controller's view to the window and display.

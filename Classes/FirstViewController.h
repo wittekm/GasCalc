@@ -21,4 +21,5 @@
 @property (retain) IBOutlet UIDatePicker * date;
 @property (retain) IBOutlet UIButton * addButton;
 
+- (IBAction)addPurchase;
 @end

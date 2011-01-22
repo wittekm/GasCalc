@@ -16,10 +16,12 @@
 @synthesize date;
 @synthesize addButton;
 
-struct purchase {
-	int price;
-	int gallons;
-	
+- (IBAction)addPurchase{
+	GasDataPoint * data;
+	[data setPrice:[price text]];
+	[data setGalons:[gallons text]];
+	[data setDate:[date date]];
+	[purchases addObject:data];
 }
 
 /*
