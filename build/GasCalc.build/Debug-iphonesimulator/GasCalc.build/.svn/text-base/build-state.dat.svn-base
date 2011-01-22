@@ -1,687 +1,0 @@
-TGasCalc
-v7
-r0
-t317232082.138066
-cCheck dependencies
-cProcessInfoPlistFile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/Info.plist GasCalc-Info.plist
-cCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/MainWindow.xib
-cCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/SecondView.xib
-cCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/FirstView.xib
-cCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/ThirdView.xib
-cCpResource build/Debug-iphonesimulator/GasCalc.app/SpeedIcon.png SpeedIcon.png
-cCpResource build/Debug-iphonesimulator/GasCalc.app/AddIcon.png AddIcon.png
-cProcessPCH /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch.gch GasCalc_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o /Users/barrelrolled/Documents/maxmax/GasCalc/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc normal i386
-cGenerateDSYMFile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-cTouch /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/FirstViewController.h
-c000000004D3751D400000000000000EC
-t1295471060
-s236
-i<UIKit/UIKit.h>
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/FirstViewController.m
-c000000004D3751D400000000000005B5
-t1295471060
-s1461
-i"FirstViewController.h"
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/GasCalcAppDelegate.h
-c000000004D3751D400000000000001DB
-t1295471060
-s475
-i<UIKit/UIKit.h>
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/GasCalcAppDelegate.m
-c000000004D3751D40000000000000C41
-t1295471060
-s3137
-i"GasCalcAppDelegate.h"
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/SecondViewController.h
-c000000004D375C4A00000000000000F8
-t1295473738
-s248
-i<Foundation/Foundation.h>
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/SecondViewController.m
-c000000004D375C6600000000000005B3
-t1295473766
-s1459
-i"SecondViewController.h"
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/ThirdViewController.h
-c000000004D375C5100000000000000F6
-t1295473745
-s246
-i<Foundation/Foundation.h>
-
-N/Users/barrelrolled/Documents/GasCalc/Classes/ThirdViewController.m
-c000000004D375C6B00000000000005AF
-t1295473771
-s1455
-i"ThirdViewController.h"
-
-N/Users/barrelrolled/Documents/GasCalc/FirstView.xib
-c000000004D3751D400000000000049D1
-t1295471060
-s18897
-
-N/Users/barrelrolled/Documents/GasCalc/GasCalc_Prefix.pch
-c000000004D3751D400000000000000B7
-t1295471060
-s183
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/barrelrolled/Documents/GasCalc/MainWindow.xib
-c000000004D3760540000000000006F63
-t1295474772
-s28515
-
-N/Users/barrelrolled/Documents/GasCalc/SecondView.xib
-c000000004D3751D400000000000049CF
-t1295471060
-s18895
-
-N/Users/barrelrolled/Documents/GasCalc/ThirdView.xib
-c000000004D376B11000000000000409A
-t1295477521
-s16538
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app
-t1295477527
-s306
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM
-t1295473774
-s102
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/FirstView.nib
-t1295471715
-s1743
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-t1295473774
-s18776
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/Info.plist
-t1295471707
-s591
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/MainWindow.nib
-t1295477138
-s1870
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/PkgInfo
-t1295471707
-s8
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/SecondView.nib
-t1295471714
-s1742
-
-N/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/ThirdView.nib
-t1295477527
-s1239
-
-N/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o
-t1295471718
-s37456
-
-N/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalc.LinkFileList
-c000000004D3756580000000000000299
-t1295472216
-s665
-
-N/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o
-t1295471718
-s54344
-
-N/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o
-t1295473773
-s37476
-
-N/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o
-t1295473773
-s37456
-
-N/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o
-t1295471718
-s6300
-
-N/Users/barrelrolled/Documents/GasCalc/main.m
-c000000004D3751D40000000000000167
-t1295471060
-s359
-i<UIKit/UIKit.h>
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/AddIcon.png
-c000000004D385B840000000000000B28
-t1295539076
-s2856
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.h
-c000000004D376B3700000000000000ED
-t1295477559
-s237
-i<UIKit/UIKit.h>
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.m
-c000000004D3751D400000000000005B5
-t1295471060
-s1461
-i"FirstViewController.h"
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.h
-c000000004D3751D400000000000001DB
-t1295471060
-s475
-i<UIKit/UIKit.h>
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.m
-c000000004D3751D40000000000000C41
-t1295471060
-s3137
-i"GasCalcAppDelegate.h"
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.h
-c000000004D375C4A00000000000000F8
-t1295473738
-s248
-i<Foundation/Foundation.h>
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.m
-c000000004D375C6600000000000005B3
-t1295473766
-s1459
-i"SecondViewController.h"
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.h
-c000000004D375C5100000000000000F6
-t1295473745
-s246
-i<Foundation/Foundation.h>
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.m
-c000000004D375C6B00000000000005AF
-t1295473771
-s1455
-i"ThirdViewController.h"
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/FirstView.xib
-c000000004D385C4B0000000000005E2B
-t1295539275
-s24107
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/GasCalc_Prefix.pch
-c000000004D3751D400000000000000B7
-t1295471060
-s183
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/MainWindow.xib
-c000000004D385BB300000000000072FB
-t1295539123
-s29435
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/SecondView.xib
-c000000004D3858AF0000000000003DF5
-t1295538351
-s15861
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/SpeedIcon.png
-c000000004D38536400000000000011B0
-t1295536996
-s4528
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/SpeedIconBW-shapes.png
-c000000004D3851A900000000000009B9
-t1295536553
-s2489
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/ThirdView.xib
-c000000004D385B45000000000000399E
-t1295539013
-s14750
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app
-t1295539282
-s408
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM
-t1295537059
-s136
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/AddIcon.png
-t1295539130
-s2856
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/FirstView.nib
-t1295539282
-s2078
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-t1295537059
-s18848
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/Info.plist
-t1295471707
-s591
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/MainWindow.nib
-t1295539129
-s2031
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/PkgInfo
-t1295471707
-s8
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/SecondView.nib
-t1295539129
-s918
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/SpeedIcon.png
-t1295537053
-s4528
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/SpeedIconBW-shapes.png
-t2
-s0
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/ThirdView.nib
-t1295539130
-s764
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o
-t1295537058
-s37468
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalc.LinkFileList
-c000000004D38539D00000000000002BC
-t1295537053
-s700
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o
-t1295537058
-s54356
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o
-t1295537059
-s37492
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o
-t1295537059
-s37468
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o
-t1295537058
-s6316
-
-N/Users/barrelrolled/Documents/maxmax/GasCalc/main.m
-c000000004D3751D40000000000000167
-t1295471060
-s359
-i<UIKit/UIKit.h>
-
-N/var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch.gch
-t1295537058
-s15453392
-
-N/var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch.gch
-t1295471717
-s15453392
-
-NGasCalc-Info.plist
-c000000004D3751D4000000000000038D
-t1295471060
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317232078#317232078#0(0"0(0#1#0"8607905408#0"0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o /Users/barrelrolled/Documents/GasCalc/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317164518.612070
-e317164518.676053
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o
-x/Users/barrelrolled/Documents/GasCalc/Classes/FirstViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/barrelrolled/Documents/GasCalc/Classes/FirstViewController.m317164518#317164518#0(0"0(0#0#67"/Users/barrelrolled/Documents/GasCalc/Classes/FirstViewController.m8605557504#1941"    cd /Users/barrelrolled/Documents/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/GasCalc/Classes/FirstViewController.m -o /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317229858.851230
-e317229858.959363
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o
-x/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.m317229858#317229858#0(0"0(0#0#74"/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.m8606938944#2018"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/FirstViewController.m -o /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/FirstViewController.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o /Users/barrelrolled/Documents/GasCalc/Classes/GasCalcAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317164518.156772
-e317164518.614385
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o
-x/Users/barrelrolled/Documents/GasCalc/Classes/GasCalcAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/barrelrolled/Documents/GasCalc/Classes/GasCalcAppDelegate.m317164518#317164518#0(0"0(0#0#66"/Users/barrelrolled/Documents/GasCalc/Classes/GasCalcAppDelegate.m8606173248#1939"    cd /Users/barrelrolled/Documents/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/GasCalc/Classes/GasCalcAppDelegate.m -o /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317229858.469435
-e317229858.892394
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o
-x/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.m317229858#317229858#0(0"0(0#0#73"/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.m8608030848#2016"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/GasCalcAppDelegate.m -o /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalcAppDelegate.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o /Users/barrelrolled/Documents/GasCalc/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317166572.992845
-e317166573.754826
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o
-x/Users/barrelrolled/Documents/GasCalc/Classes/SecondViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/barrelrolled/Documents/GasCalc/Classes/SecondViewController.m317166572#317166573#0(0"0(0#0#68"/Users/barrelrolled/Documents/GasCalc/Classes/SecondViewController.m8602783968#1943"    cd /Users/barrelrolled/Documents/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/GasCalc/Classes/SecondViewController.m -o /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317229858.892540
-e317229859.031763
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o
-x/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.m317229858#317229859#0(0"0(0#0#75"/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.m8606547392#2020"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/SecondViewController.m -o /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/SecondViewController.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o /Users/barrelrolled/Documents/GasCalc/Classes/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317166572.993892
-e317166573.703738
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o
-x/Users/barrelrolled/Documents/GasCalc/Classes/ThirdViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/barrelrolled/Documents/GasCalc/Classes/ThirdViewController.m317166572#317166573#0(0"0(0#0#67"/Users/barrelrolled/Documents/GasCalc/Classes/ThirdViewController.m8607718720#1941"    cd /Users/barrelrolled/Documents/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/GasCalc/Classes/ThirdViewController.m -o /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317229858.959473
-e317229859.032041
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o
-x/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.m317229858#317229859#0(0"0(0#0#74"/Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.m8606357184#2018"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/maxmax/GasCalc/Classes/ThirdViewController.m -o /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/ThirdViewController.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o /Users/barrelrolled/Documents/GasCalc/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317164518.114950
-e317164518.585572
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o
-x/Users/barrelrolled/Documents/GasCalc/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/barrelrolled/Documents/GasCalc/main.m317164518#317164518#0(0"0(0#0#44"/Users/barrelrolled/Documents/GasCalc/main.m8606356288#1903"    cd /Users/barrelrolled/Documents/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/GasCalc/main.m -o /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o0#
-
-CCompileC build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o /Users/barrelrolled/Documents/maxmax/GasCalc/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317229858.467840
-e317229858.851129
-r1
-xCompileC
-xbuild/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o
-x/Users/barrelrolled/Documents/maxmax/GasCalc/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/barrelrolled/Documents/maxmax/GasCalc/main.m317229858#317229858#0(0"0(0#0#51"/Users/barrelrolled/Documents/maxmax/GasCalc/main.m8608354592#1980"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -include /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch -c /Users/barrelrolled/Documents/maxmax/GasCalc/main.m -o /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/barrelrolled/Documents/GasCalc/FirstView.xib
-s317164514.391704
-e317164515.210328
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/GasCalc/FirstView.xib
-lSLF07#2@24"CompileXIB FirstView.xib317164514#317164515#0(0"0(0#0#51"/Users/barrelrolled/Documents/GasCalc/FirstView.xib8605158848#565"    cd /Users/barrelrolled/Documents/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/FirstView.nib /Users/barrelrolled/Documents/GasCalc/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/barrelrolled/Documents/GasCalc/MainWindow.xib
-s317169935.170108
-e317169938.799830
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/GasCalc/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib317169935#317169938#0(0"0(0#0#52"/Users/barrelrolled/Documents/GasCalc/MainWindow.xib8609456224#567"    cd /Users/barrelrolled/Documents/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/MainWindow.nib /Users/barrelrolled/Documents/GasCalc/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/barrelrolled/Documents/GasCalc/SecondView.xib
-s317164507.412501
-e317164514.532810
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/GasCalc/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib317164507#317164514#0(0"0(0#0#52"/Users/barrelrolled/Documents/GasCalc/SecondView.xib8604733472#567"    cd /Users/barrelrolled/Documents/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/SecondView.nib /Users/barrelrolled/Documents/GasCalc/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/barrelrolled/Documents/GasCalc/ThirdView.xib
-s317170325.260030
-e317170327.583565
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/GasCalc/ThirdView.xib
-lSLF07#2@24"CompileXIB ThirdView.xib317170325#317170327#0(0"0(0#0#51"/Users/barrelrolled/Documents/GasCalc/ThirdView.xib8610867040#565"    cd /Users/barrelrolled/Documents/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/ThirdView.nib /Users/barrelrolled/Documents/GasCalc/ThirdView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/FirstView.xib
-s317232078.755208
-e317232082.109872
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/maxmax/GasCalc/FirstView.xib
-lSLF07#2@24"CompileXIB FirstView.xib317232078#317232082#0(0"0(0#0#58"/Users/barrelrolled/Documents/maxmax/GasCalc/FirstView.xib8606441344#586"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/FirstView.nib /Users/barrelrolled/Documents/maxmax/GasCalc/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/MainWindow.xib
-s317231925.833969
-e317231929.705550
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/maxmax/GasCalc/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib317231925#317231929#0(0"0(0#0#59"/Users/barrelrolled/Documents/maxmax/GasCalc/MainWindow.xib8608375648#588"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/MainWindow.nib /Users/barrelrolled/Documents/maxmax/GasCalc/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/SecondView.xib
-s317231925.834677
-e317231929.580606
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/maxmax/GasCalc/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib317231925#317231929#0(0"0(0#0#59"/Users/barrelrolled/Documents/maxmax/GasCalc/SecondView.xib8608297696#588"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/SecondView.nib /Users/barrelrolled/Documents/maxmax/GasCalc/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/barrelrolled/Documents/maxmax/GasCalc/ThirdView.xib
-s317231929.705645
-e317231930.192090
-r1
-xCompileXIB
-x/Users/barrelrolled/Documents/maxmax/GasCalc/ThirdView.xib
-lSLF07#2@24"CompileXIB ThirdView.xib317231929#317231930#0(0"0(0#0#58"/Users/barrelrolled/Documents/maxmax/GasCalc/ThirdView.xib8608795424#586"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/ThirdView.nib /Users/barrelrolled/Documents/maxmax/GasCalc/ThirdView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/GasCalc.app/AddIcon.png AddIcon.png
-s317231930.192386
-e317231930.274453
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/GasCalc.app/AddIcon.png
-xAddIcon.png
-lSLF07#2@16"Copy AddIcon.png317231930#317231930#0(0"0(0#0#56"/Users/barrelrolled/Documents/maxmax/GasCalc/AddIcon.png30962724186357872#487"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/barrelrolled/Documents/maxmax/GasCalc/AddIcon.png /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app0#
-
-CCpResource build/Debug-iphonesimulator/GasCalc.app/SpeedIcon.png SpeedIcon.png
-s317229853.655116
-e317229853.701551
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/GasCalc.app/SpeedIcon.png
-xSpeedIcon.png
-lSLF07#2@18"Copy SpeedIcon.png317229853#317229853#0(0"0(0#0#58"/Users/barrelrolled/Documents/maxmax/GasCalc/SpeedIcon.png8608679232#489"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/barrelrolled/Documents/maxmax/GasCalc/SpeedIcon.png /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app0#
-
-CCpResource build/Debug-iphonesimulator/GasCalc.app/SpeedIconBW-shapes.png SpeedIconBW-shapes.png
-r0
-
-CGenerateDSYMFile /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-s317166574.097127
-e317166574.226922
-r1
-xGenerateDSYMFile
-x/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM
-x/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/GasCalc.app.dSYM build/Debug-iphonesimulator/GasCalc.app/GasCalc317166574#317166574#0(0"0(0#0#85"/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc8607571200#380"    cd /Users/barrelrolled/Documents/GasCalc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc -o /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM0#
-
-CGenerateDSYMFile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-s317229859.598515
-e317229859.696683
-r1
-xGenerateDSYMFile
-x/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM
-x/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/GasCalc.app.dSYM build/Debug-iphonesimulator/GasCalc.app/GasCalc317229859#317229859#0(0"0(0#0#92"/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc8606888864#401"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc -o /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app.dSYM0#
-
-CLd /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc normal i386
-s317166573.755055
-e317166574.096990
-r1
-xLd
-x/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-xnormal
-xi386
-lSLF07#2@90"Link /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc317166573#317166574#0(0"0(0#0#0"8607123520#895"    cd /Users/barrelrolled/Documents/GasCalc    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -F/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -filelist /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalc.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc0#
-
-CLd /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc normal i386
-s317229859.032103
-e317229859.598380
-r1
-xLd
-x/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc
-xnormal
-xi386
-lSLF07#2@97"Link /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc317229859#317229859#0(0"0(0#0#0"8608414208#930"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -F/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -filelist /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/Objects-normal/i386/GasCalc.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/GasCalc0#
-
-CProcessInfoPlistFile /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/Info.plist GasCalc-Info.plist
-s317164507.295920
-e317164507.377495
-r1
-xProcessInfoPlistFile
-x/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/Info.plist
-xGasCalc-Info.plist
-lSLF07#2@26"Process GasCalc-Info.plist317164507#317164507#0(0"0(0#0#56"/Users/barrelrolled/Documents/GasCalc/GasCalc-Info.plist30962724186357872#476"    cd /Users/barrelrolled/Documents/GasCalc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GasCalc-Info.plist -genpkginfo /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app/Info.plist0#
-
-CProcessInfoPlistFile /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app/Info.plist GasCalc-Info.plist
-r0
-
-CProcessPCH /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch.gch GasCalc_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317229856.332220
-e317229858.467631
-r1
-xProcessPCH
-x/var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch.gch
-xGasCalc_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile GasCalc_Prefix.pch317229856#317229858#0(0"0(0#0#63"/Users/barrelrolled/Documents/maxmax/GasCalc/GasCalc_Prefix.pch8608693376#1866"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/maxmax/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -c /Users/barrelrolled/Documents/maxmax/GasCalc/GasCalc_Prefix.pch -o /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-bjxtjulgmunrlycnezmnlubdhwze/GasCalc_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch.gch GasCalc_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317164515.210474
-e317164518.113740
-r1
-xProcessPCH
-x/var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch.gch
-xGasCalc_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile GasCalc_Prefix.pch317164515#317164518#0(0"0(0#0#56"/Users/barrelrolled/Documents/GasCalc/GasCalc_Prefix.pch8603329632#1796"    cd /Users/barrelrolled/Documents/GasCalc    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-generated-files.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-own-target-headers.hmap -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-all-target-headers.hmap -iquote /Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/GasCalc-project-headers.hmap -F/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator -I/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/include -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources/i386 -I/Users/barrelrolled/Documents/GasCalc/build/GasCalc.build/Debug-iphonesimulator/GasCalc.build/DerivedSources -c /Users/barrelrolled/Documents/GasCalc/GasCalc_Prefix.pch -o /var/folders/L8/L8He2re5FN8tPFGQoYb6TU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GasCalc_Prefix-fdqqzmvrvkqmizavltdaaahtnwkh/GasCalc_Prefix.pch.gch0#
-
-CTouch /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app
-s317170327.584389
-e317170327.611857
-r1
-xTouch
-x/Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app
-lSLF07#2@83"Touch /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app317170327#317170327#0(0"0(0#0#0"8606810400#276"    cd /Users/barrelrolled/Documents/GasCalc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/barrelrolled/Documents/GasCalc/build/Debug-iphonesimulator/GasCalc.app0#
-
-CTouch /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app
-s317232082.110651
-e317232082.137986
-r1
-xTouch
-x/Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app
-lSLF07#2@90"Touch /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app317232082#317232082#0(0"0(0#0#0"8608465120#290"    cd /Users/barrelrolled/Documents/maxmax/GasCalc    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/barrelrolled/Documents/maxmax/GasCalc/build/Debug-iphonesimulator/GasCalc.app0#
-
