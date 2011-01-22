@@ -17,6 +17,8 @@
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		5000E89112EB954E00E09E36 /* GasData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5000E89012EB954E00E09E36 /* GasData.m */; };
+		5409A94612EB9E9100D3EB9B /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409A94512EB9E9100D3EB9B /* Globals.m */; };
+		5409A94912EB9FA400D3EB9B /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5409A94812EB9FA400D3EB9B /* greenButton.png */; };
 		540B689E12E88AF300A0EDE5 /* SpeedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 540B689D12E88AF300A0EDE5 /* SpeedIcon.png */; };
 		540B68A412E8932B00A0EDE5 /* AddIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 540B68A312E8932B00A0EDE5 /* AddIcon.png */; };
 		54CA973B12E78A1B00AE9260 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CA973A12E78A1B00AE9260 /* ThirdView.xib */; };
@@ -40,6 +42,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5000E88F12EB954E00E09E36 /* GasData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasData.h; sourceTree = "<group>"; };
 		5000E89012EB954E00E09E36 /* GasData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasData.m; sourceTree = "<group>"; };
+		5409A94412EB9E9100D3EB9B /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		5409A94512EB9E9100D3EB9B /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
+		5409A94812EB9FA400D3EB9B /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
 		540B689D12E88AF300A0EDE5 /* SpeedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpeedIcon.png; sourceTree = "<group>"; };
 		540B68A312E8932B00A0EDE5 /* AddIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddIcon.png; sourceTree = "<group>"; };
 		54CA973A12E78A1B00AE9260 /* ThirdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
@@ -73,6 +78,8 @@
 				54CA974712E78D7700AE9260 /* SecondViewController.m */,
 				1D3623240D0F684500981E51 /* GasCalcAppDelegate.h */,
 				1D3623250D0F684500981E51 /* GasCalcAppDelegate.m */,
+				5409A94412EB9E9100D3EB9B /* Globals.h */,
+				5409A94512EB9E9100D3EB9B /* Globals.m */,
 				54CA974912E78D9000AE9260 /* ThirdViewController.h */,
 				54CA974A12E78D9000AE9260 /* ThirdViewController.m */,
 				5000E88F12EB954E00E09E36 /* GasData.h */,
@@ -113,6 +120,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5409A94812EB9FA400D3EB9B /* greenButton.png */,
 				540B68A312E8932B00A0EDE5 /* AddIcon.png */,
 				540B689D12E88AF300A0EDE5 /* SpeedIcon.png */,
 				2840D7CD1179279E00D7F93C /* FirstView.xib */,
@@ -189,6 +197,7 @@
 				54CA973B12E78A1B00AE9260 /* ThirdView.xib in Resources */,
 				540B689E12E88AF300A0EDE5 /* SpeedIcon.png in Resources */,
 				540B68A412E8932B00A0EDE5 /* AddIcon.png in Resources */,
+				5409A94912EB9FA400D3EB9B /* greenButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +214,7 @@
 				54CA974812E78D7700AE9260 /* SecondViewController.m in Sources */,
 				54CA974B12E78D9000AE9260 /* ThirdViewController.m in Sources */,
 				5000E89112EB954E00E09E36 /* GasData.m in Sources */,
+				5409A94612EB9E9100D3EB9B /* Globals.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
