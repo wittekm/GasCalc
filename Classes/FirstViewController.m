@@ -16,6 +16,12 @@
 @synthesize date;
 @synthesize addButton;
 
+- (IBAction)addPurchase{
+	GasData * data;
+	[data setPrice:[price text]];
+	[data setGallons:[gallons text]];
+	[data setDate:[date date]];
+}
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -42,7 +48,6 @@
 	GasData * data = [[GasData alloc] init];
 	[data setAmt:30];
 }
-
 
 /*
 // Override to allow orientations other than the default portrait orientation.
