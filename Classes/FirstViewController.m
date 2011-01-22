@@ -16,6 +16,12 @@
 @synthesize date;
 @synthesize addButton;
 
+struct purchase {
+	int price;
+	int gallons;
+	
+}
+
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
