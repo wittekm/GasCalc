@@ -1,0 +1,16 @@
+//
+//  FirstViewController.h
+//  GasCalc
+//
+//  Created by Max Kolasinski on 1/19/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface FirstViewController : UIViewController {
+	
+}
+
+@end

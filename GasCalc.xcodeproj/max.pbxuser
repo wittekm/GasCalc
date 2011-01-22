@@ -1,0 +1,151 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* GasCalc */ = {
+		activeExec = 0;
+		executables = (
+			50FEECC612EB81F300E40757 /* GasCalc */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {695, 377}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{0, 563}";
+			sepNavWindowFrame = "{{947, -398}, {1162, 819}}";
+		};
+	};
+	28216C960DB411BC00E5133A /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 910}}";
+			sepNavSelRange = "{278, 23}";
+			sepNavVisRange = "{242, 330}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 50FEECC612EB81F300E40757 /* GasCalc */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GasCalc */;
+		codeSenseManager = 50FEECDC12EB81F600E40757 /* Code sense */;
+		executables = (
+			50FEECC612EB81F300E40757 /* GasCalc */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					517,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317424115;
+			PBXWorkspaceStateSaveDate = 317424115;
+		};
+		perUserProjectItems = {
+			50FEECE012EB82EC00E40757 /* PlistBookmark */ = 50FEECE012EB82EC00E40757 /* PlistBookmark */;
+			50FEED1A12EB898200E40757 /* PBXTextBookmark */ = 50FEED1A12EB898200E40757 /* PBXTextBookmark */;
+			50FEED1B12EB898200E40757 /* PBXTextBookmark */ = 50FEED1B12EB898200E40757 /* PBXTextBookmark */;
+			50FEED2012EB8AB800E40757 /* PBXTextBookmark */ = 50FEED2012EB8AB800E40757 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 50FEECDB12EB81F600E40757 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	50FEECC612EB81F300E40757 /* GasCalc */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GasCalc;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	50FEECDB12EB81F600E40757 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	50FEECDC12EB81F600E40757 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	50FEECE012EB82EC00E40757 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GasCalc-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/max/Projects/maxmax/GasCalc/GasCalc-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	50FEED1A12EB898200E40757 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
+		name = "FirstViewController.h: 13";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 563;
+		vrLoc = 0;
+	};
+	50FEED1B12EB898200E40757 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 14";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 0;
+	};
+	50FEED2012EB8AB800E40757 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 29";
+		rLen = 0;
+		rLoc = 631;
+		rType = 0;
+		vrLen = 907;
+		vrLoc = 305;
+	};
+}

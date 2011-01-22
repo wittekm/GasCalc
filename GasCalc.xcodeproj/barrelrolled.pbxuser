@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* GasCalcAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 327}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 475}";
+		};
+	};
+	1D3623250D0F684500981E51 /* GasCalcAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1503, 1482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2565, 572}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* GasCalc */ = {
+		activeExec = 0;
+		executables = (
+			54CA972712E7895400AE9260 /* GasCalc */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 327}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 236}";
+		};
+	};
+	28216C960DB411BC00E5133A /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 554}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 54CA972712E7895400AE9260 /* GasCalc */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GasCalc */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* GasCalc */,
+		);
+		codeSenseManager = 54CA973712E7896200AE9260 /* Code sense */;
+		executables = (
+			54CA972712E7895400AE9260 /* GasCalc */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					551,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317229196;
+			PBXWorkspaceStateSaveDate = 317229196;
+		};
+		perUserProjectItems = {
+			540B68AC12E896C300A0EDE5 /* PBXTextBookmark */ = 540B68AC12E896C300A0EDE5 /* PBXTextBookmark */;
+			540B68AD12E896C300A0EDE5 /* PBXTextBookmark */ = 540B68AD12E896C300A0EDE5 /* PBXTextBookmark */;
+			540B68AE12E896C300A0EDE5 /* PBXBookmark */ = 540B68AE12E896C300A0EDE5 /* PBXBookmark */;
+			540B68AF12E896C300A0EDE5 /* PBXBookmark */ = 540B68AF12E896C300A0EDE5 /* PBXBookmark */;
+			540B68B012E896C300A0EDE5 /* PBXBookmark */ = 540B68B012E896C300A0EDE5 /* PBXBookmark */;
+		};
+		sourceControlManager = 54CA973612E7896200AE9260 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 327}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 359}";
+		};
+	};
+	540B68AC12E896C300A0EDE5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54CA974912E78D9000AE9260 /* ThirdViewController.h */;
+		name = "ThirdViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	540B68AD12E896C300A0EDE5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54CA974612E78D7700AE9260 /* SecondViewController.h */;
+		name = "SecondViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	540B68AE12E896C300A0EDE5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 540B689D12E88AF300A0EDE5 /* SpeedIcon.png */;
+	};
+	540B68AF12E896C300A0EDE5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 540B68A312E8932B00A0EDE5 /* AddIcon.png */;
+	};
+	540B68B012E896C300A0EDE5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 540B68A312E8932B00A0EDE5 /* AddIcon.png */;
+	};
+	54CA972712E7895400AE9260 /* GasCalc */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GasCalc;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	54CA973612E7896200AE9260 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	54CA973712E7896200AE9260 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	54CA974612E78D7700AE9260 /* SecondViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 320}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	54CA974912E78D9000AE9260 /* ThirdViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 320}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 246}";
+		};
+	};
+}
