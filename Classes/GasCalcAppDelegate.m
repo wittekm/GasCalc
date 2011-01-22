@@ -7,7 +7,7 @@
 //
 
 #import "GasCalcAppDelegate.h"
-
+#import "Globals.h"
 
 @implementation GasCalcAppDelegate
 
@@ -19,8 +19,7 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-	purchases = [[NSMutableArray alloc] init];
-	
+	[[Globals sharedInstance] setPurchases:[[NSMutableArray alloc] init]];
     // Override point for customization after application launch.
 
     // Add the tab bar controller's view to the window and display.

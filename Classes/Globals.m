@@ -10,5 +10,17 @@
 
 
 @implementation Globals
+@synthesize purchases;
 
++ (Globals *)sharedInstance
+{
+	static Globals *myInstance = nil;
+	
+	if (nil == myInstance){
+		myInstance = [[[self class] alloc] init];
+		// init var here
+	}
+	// return the instance of this class
+	return myInstance;
+}
 @end

@@ -17,10 +17,12 @@
 @synthesize addButton;
 
 - (IBAction)addPurchase{
+	/*
 	GasData * data;
 	[data setPrice:[price text]];
 	[data setGallons:[gallons text]];
 	[data setDate:[date date]];
+	 */
 }
 
 /*
@@ -46,7 +48,6 @@
     [super viewDidLoad];
 	price.text = @"testing";
 	GasData * data = [[GasData alloc] init];
-	[data setAmt:30];
 }
 
 /*

@@ -10,9 +10,10 @@
 
 
 @interface Globals : NSObject {
+	NSMutableArray * purchases;
 	// place global variables here
 }
 + (Globals *)sharedInstance;
 
-
+@property (retain) NSMutableArray * purchases;
 @end
