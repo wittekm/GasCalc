@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GasData.h"
 
 
 @interface FirstViewController : UIViewController {

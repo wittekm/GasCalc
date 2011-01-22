@@ -16,11 +16,6 @@
 @synthesize date;
 @synthesize addButton;
 
-struct purchase {
-	int price;
-	int gallons;
-	
-}
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -44,6 +39,8 @@ struct purchase {
 - (void)viewDidLoad {
     [super viewDidLoad];
 	price.text = @"testing";
+	GasData * data = [[GasData alloc] init];
+	[data setAmt:30];
 }
 
 
