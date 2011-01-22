@@ -11,7 +11,7 @@
 @implementation GasData
 
 @synthesize price;
-@synthesize amt;
+@synthesize gallons;
 @synthesize date;
 
 @end

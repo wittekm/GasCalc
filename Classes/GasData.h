@@ -11,12 +11,12 @@
 
 @interface GasData : NSObject {
 	int price;
-	int amt;
+	int gallons;
 	NSDate * date;
 }
 
 @property int price;
-@property int amt;
+@property int gallons;
 @property (retain) NSDate * date;
 
 @end
