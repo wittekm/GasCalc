@@ -8,15 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface GasData : NSObject {
-	int price;
-	int gallons;
+	NSNumber * price;
+	NSNumber * gallons;
 	NSDate * date;
 }
 
-@property int price;
-@property int gallons;
+@property (retain) NSNumber * price;
+@property (retain) NSNumber * gallons;
 @property (retain) NSDate * date;
 
 @end
