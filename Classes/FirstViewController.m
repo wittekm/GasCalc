@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "Globals.h"
+#import "NumberPadDone.h"
 
 @implementation FirstViewController
 
@@ -39,6 +40,13 @@ NSString * stripPunctuation(NSString * s) {
 	
 	/* tell SecondViewController to reloadData */
 	// [uitableview reloadData];
+}
+
+- (IBAction)textFieldTouched:(id)sender {
+	if(sender == price)
+		[doneAdder addDoneButtonTo: price];
+	else if(sender == gallons)
+		[doneAdder addDoneButtonTo: gallons];
 }
 
 - (IBAction)priceTextFieldChanged {
@@ -105,6 +113,8 @@ NSString * stripPunctuation(NSString * s) {
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[date setDate:[NSDate date]]; /* set uidatepicker to today */
+	doneAdder = [[NumberPadDone alloc] init];
+	
 	//data = [[[GasData init] alloc] autorelease];
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NumberPadDone.h"
 #import "GasData.h"
 
 
@@ -18,6 +19,7 @@
 	IBOutlet UIButton * addButton;
 	
 	GasData * data;
+	NumberPadDone * doneAdder;
 }
 @property (retain) IBOutlet UITextField * price;
 @property (retain) IBOutlet UITextField * gallons;
@@ -25,6 +27,7 @@
 @property (retain) IBOutlet UIButton * addButton;
 
 - (IBAction)addPurchase;
+- (IBAction)textFieldTouched:(id)sender;
 - (IBAction)priceTextFieldChanged;
 
 @end
