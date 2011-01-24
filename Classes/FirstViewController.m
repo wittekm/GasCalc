@@ -38,6 +38,10 @@ NSString * stripPunctuation(NSString * s) {
 	[price resignFirstResponder];
 	[gallons resignFirstResponder];
 	
+	price.text = @"";
+	gallons.text = @"";
+	[date setDate:[NSDate date]];
+	
 	/* tell SecondViewController to reloadData */
 	// [uitableview reloadData];
 }
@@ -88,7 +92,7 @@ NSString * stripPunctuation(NSString * s) {
 	/*
 	 grab price as number, then format to match that */
 	
-	gallons.text = temp;
+	//gallons.text = temp;
 }
 
 /*
