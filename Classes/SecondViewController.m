@@ -7,9 +7,12 @@
 //
 
 #import "SecondViewController.h"
+#import "GasData.h"
+#import "Globals.h"
 
 
 @implementation SecondViewController
+
 
 
 /*
@@ -29,12 +32,17 @@
  }
  */
 
-/*
+
+#pragma mark -
+#pragma mark View lifecycle
  // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
  - (void)viewDidLoad {
- [super viewDidLoad];
+	 NSLog(@"do you even happen");
+	 [super viewDidLoad];
+	 [self setTitle: @"Backgrounds"];
+	 [[self tableView] setRowHeight:100];
  }
- */
+
 
 /*
  // Override to allow orientations other than the default portrait orientation.
@@ -43,6 +51,60 @@
  return (interfaceOrientation == UIInterfaceOrientationPortrait);
  }
  */
+
+#pragma mark -
+#pragma mark Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [[Globals sharedInstance].purchases count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+	NSLog(@"oh come on dude...");
+	
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    }
+    
+	
+	GasData * data = [[Globals sharedInstance].purchases objectAtIndex:indexPath.row];
+	NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setDateFormat:@"MM/dd"];
+	NSString *date = [dateFormatter stringFromDate:[data date]];
+	NSLog(date); 
+	NSString * price = [NSString stringWithFormat:@"%d", [[data price] integerValue]];
+	
+	cell.textLabel.text = [NSString stringWithFormat:@"%@ - %@", date, price];
+	
+    return cell;
+}
+
+#pragma mark -
+#pragma mark Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+	/*
+	 ImageViewController *detailViewController = [[ImageViewController alloc] initWithNibName:@"ImageViewController" bundle:nil];
+	 [detailViewController setImage: [images objectAtIndex:indexPath.row]];
+	 // ...
+	 // Pass the selected object to the new view controller.
+	 [self.navigationController pushViewController:detailViewController animated:YES];
+	 [detailViewController release];
+	 */
+	
+}
+
+#pragma mark -
+#pragma mark Memory management
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.

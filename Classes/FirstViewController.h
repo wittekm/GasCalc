@@ -10,12 +10,14 @@
 #import "GasData.h"
 
 
-@interface FirstViewController : UIViewController {
+@interface FirstViewController : UIViewController <UITextFieldDelegate> {
 	IBOutlet UITextField * price;
 	IBOutlet UITextField * gallons;
 	
 	IBOutlet UIDatePicker * date;
 	IBOutlet UIButton * addButton;
+	
+	GasData * data;
 }
 @property (retain) IBOutlet UITextField * price;
 @property (retain) IBOutlet UITextField * gallons;
@@ -23,4 +25,6 @@
 @property (retain) IBOutlet UIButton * addButton;
 
 - (IBAction)addPurchase;
+- (IBAction)priceTextFieldChanged;
+
 @end

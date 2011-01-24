@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
-@interface SecondViewController : UIViewController {
-
+@interface SecondViewController : UITableViewController {
+	
 }
 
 @end

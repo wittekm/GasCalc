@@ -11,6 +11,7 @@
 
 @implementation Globals
 @synthesize purchases;
+@synthesize doPriceFieldChange;
 
 + (Globals *)sharedInstance
 {

@@ -11,9 +11,11 @@
 
 @interface Globals : NSObject {
 	NSMutableArray * purchases;
+	BOOL doPriceFieldChange;
 	// place global variables here
 }
 + (Globals *)sharedInstance;
 
+@property BOOL doPriceFieldChange;
 @property (retain) NSMutableArray * purchases;
 @end
