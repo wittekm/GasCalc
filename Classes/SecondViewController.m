@@ -71,18 +71,20 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
 	
 	GasData * data = [[Globals sharedInstance].purchases objectAtIndex:indexPath.row];
 	NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
-	[dateFormatter setDateFormat:@"MM/dd"];
+	[dateFormatter setDateFormat:@"MMMM dd"];
 	NSString *date = [dateFormatter stringFromDate:[data date]];
 	NSLog(date); 
 	NSString * price = [NSString stringWithFormat:@"%d", [[data price] integerValue]];
+	NSString * gallons = [NSString stringWithFormat:@"%d", [[data gallons] integerValue]];
 	
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ - %@", date, price];
+	cell.textLabel.text = [NSString stringWithFormat:@"%@", date, price];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"$%@, %@ gal", price, gallons];
 	
     return cell;
 }

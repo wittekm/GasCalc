@@ -83,14 +83,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				28216C950DB411BC00E5133A /* FirstViewController.h */,
-				28216C960DB411BC00E5133A /* FirstViewController.m */,
-				54CA974612E78D7700AE9260 /* SecondViewController.h */,
-				54CA974712E78D7700AE9260 /* SecondViewController.m */,
 				1D3623240D0F684500981E51 /* GasCalcAppDelegate.h */,
 				1D3623250D0F684500981E51 /* GasCalcAppDelegate.m */,
 				5409A94412EB9E9100D3EB9B /* Globals.h */,
 				5409A94512EB9E9100D3EB9B /* Globals.m */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				54CA974612E78D7700AE9260 /* SecondViewController.h */,
+				54CA974712E78D7700AE9260 /* SecondViewController.m */,
 				54CA974912E78D9000AE9260 /* ThirdViewController.h */,
 				54CA974A12E78D9000AE9260 /* ThirdViewController.m */,
 				5000E88F12EB954E00E09E36 /* GasData.h */,
