@@ -81,7 +81,8 @@
 	NSLog(date); 
 	NSString * price = [NSString stringWithFormat:@"%d", [[data price] integerValue]];
 	NSString * gallons = [NSString stringWithFormat:@"%d", [[data gallons] integerValue]];
-	cell.textLabel.text = [NSString stringWithFormat:@"%@, %@", date, [[data location] coordinate]];
+	
+	cell.textLabel.text = [NSString stringWithFormat:@"%@, %@", date, [[data location] description]];
 	cell.detailTextLabel.text = [NSString stringWithFormat:@"$%@, %@ gal", price, gallons];
 	
     return cell;
