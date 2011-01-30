@@ -27,6 +27,8 @@
 		5409A94912EB9FA400D3EB9B /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5409A94812EB9FA400D3EB9B /* greenButton.png */; };
 		540B689E12E88AF300A0EDE5 /* SpeedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 540B689D12E88AF300A0EDE5 /* SpeedIcon.png */; };
 		540B68A412E8932B00A0EDE5 /* AddIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 540B68A312E8932B00A0EDE5 /* AddIcon.png */; };
+		542D859812F0AE2F001A5695 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542D859712F0AE2F001A5695 /* CoreLocation.framework */; };
+		542D859C12F0AE35001A5695 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542D859B12F0AE35001A5695 /* CoreData.framework */; };
 		54CA973B12E78A1B00AE9260 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CA973A12E78A1B00AE9260 /* ThirdView.xib */; };
 		54CA974812E78D7700AE9260 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA974712E78D7700AE9260 /* SecondViewController.m */; };
 		54CA974B12E78D9000AE9260 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA974A12E78D9000AE9260 /* ThirdViewController.m */; };
@@ -60,11 +62,14 @@
 		5409A94812EB9FA400D3EB9B /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
 		540B689D12E88AF300A0EDE5 /* SpeedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpeedIcon.png; sourceTree = "<group>"; };
 		540B68A312E8932B00A0EDE5 /* AddIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddIcon.png; sourceTree = "<group>"; };
+		542D859712F0AE2F001A5695 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		542D859B12F0AE35001A5695 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		54CA973A12E78A1B00AE9260 /* ThirdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
 		54CA974612E78D7700AE9260 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		54CA974712E78D7700AE9260 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		54CA974912E78D9000AE9260 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		54CA974A12E78D9000AE9260 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		54DA0CF312EE0B0F00768971 /* GasCalcApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GasCalcApp-Info.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* GasCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GasCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +81,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				542D859812F0AE2F001A5695 /* CoreLocation.framework in Frameworks */,
+				542D859C12F0AE35001A5695 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +126,9 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				54DA0CF312EE0B0F00768971 /* GasCalcApp-Info.plist */,
+				542D859712F0AE2F001A5695 /* CoreLocation.framework */,
+				542D859B12F0AE35001A5695 /* CoreData.framework */,
 			);
 			name = GasCalc;
 			sourceTree = "<group>";

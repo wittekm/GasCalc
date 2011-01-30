@@ -9,6 +9,8 @@
 #import "FirstViewController.h"
 #import "Globals.h"
 #import "NumberPadDone.h"
+#import <CoreLocation/CoreLocation.h>
+
 
 @implementation FirstViewController
 
@@ -16,6 +18,7 @@
 @synthesize gallons;
 @synthesize date;
 @synthesize addButton;
+@synthesize locationManager;
 
 NSString * stripPunctuation(NSString * s) {
 	NSString* a=[[[NSString alloc] initWithData:[s dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES] encoding:NSASCIIStringEncoding] autorelease];
@@ -31,6 +34,7 @@ NSString * stripPunctuation(NSString * s) {
 	[addData setPrice: [[NSNumber alloc] initWithInt:[ stripPunctuation([price text]) integerValue]]];
 	[addData setGallons: [[NSNumber alloc] initWithInt:[[gallons text] integerValue]]];
 	[addData setDate: [date date]];
+	[addData setLocation: [locationManager location]];
 	
 	[[[Globals sharedInstance] purchases] addObject:addData];
 	
@@ -118,7 +122,9 @@ NSString * stripPunctuation(NSString * s) {
     [super viewDidLoad];
 	[date setDate:[NSDate date]]; /* set uidatepicker to today */
 	doneAdder = [[NumberPadDone alloc] init];
-	
+	self.locationManager = [[[CLLocationManager alloc] init] autorelease];
+    locationManager.delegate = self;
+	[locationManager startUpdatingLocation];	
 	//data = [[[GasData init] alloc] autorelease];
 }
 

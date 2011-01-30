@@ -20,11 +20,13 @@
 	
 	GasData * data;
 	NumberPadDone * doneAdder;
+	CLLocationManager * locationManager;
 }
 @property (retain) IBOutlet UITextField * price;
 @property (retain) IBOutlet UITextField * gallons;
 @property (retain) IBOutlet UIDatePicker * date;
 @property (retain) IBOutlet UIButton * addButton;
+@property (nonatomic, retain) CLLocationManager *locationManager;
 
 - (IBAction)addPurchase;
 - (IBAction)textFieldTouched:(id)sender;

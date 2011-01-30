@@ -11,6 +11,7 @@
 #import "Globals.h"
 
 
+
 @implementation SecondViewController
 
 
@@ -39,8 +40,7 @@
  - (void)viewDidLoad {
 	 NSLog(@"do you even happen");
 	 [super viewDidLoad];
-	 [self setTitle: @"Backgrounds"];
-	 [[self tableView] setRowHeight:100];
+	 [[self tableView] setRowHeight:60];
  }
 
 
@@ -82,8 +82,7 @@
 	NSLog(date); 
 	NSString * price = [NSString stringWithFormat:@"%d", [[data price] integerValue]];
 	NSString * gallons = [NSString stringWithFormat:@"%d", [[data gallons] integerValue]];
-	
-	cell.textLabel.text = [NSString stringWithFormat:@"%@", date, price];
+	cell.textLabel.text = [NSString stringWithFormat:@"%@, %@", date, [[data location] coordinate]];
 	cell.detailTextLabel.text = [NSString stringWithFormat:@"$%@, %@ gal", price, gallons];
 	
     return cell;

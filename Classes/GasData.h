@@ -7,16 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+
 
 @interface GasData : NSObject {
 	NSNumber * price;
 	NSNumber * gallons;
 	NSDate * date;
+	CLLocation * location;
 }
 
 @property (retain) NSNumber * price;
 @property (retain) NSNumber * gallons;
 @property (retain) NSDate * date;
+@property (retain) CLLocation * location;
 
 @end
 

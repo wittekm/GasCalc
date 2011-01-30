@@ -7,6 +7,7 @@
 //
 
 #import "Globals.h"
+#import <CoreLocation/CoreLocation.h>
 
 
 @implementation Globals
