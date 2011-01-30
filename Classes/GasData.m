@@ -7,12 +7,15 @@
 //
 
 #import "GasData.h"
+#import <CoreLocation/CoreLocation.h>
+
 
 @implementation GasData
 
 @synthesize price; 
 @synthesize gallons;
 @synthesize date;
+@synthesize location;
 
 
 @end
