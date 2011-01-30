@@ -39,7 +39,6 @@
  - (void)viewDidLoad {
 	 NSLog(@"do you even happen");
 	 [super viewDidLoad];
-	 [self setTitle: @"Backgrounds"];
 	 [[self tableView] setRowHeight:100];
  }
 

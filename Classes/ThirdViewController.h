@@ -9,8 +9,17 @@
 #import <Foundation/Foundation.h>
 
 
-@interface ThirdViewController : UIViewController {
+@interface ThirdViewController : UIViewController <CPPlotDataSource> {
+	IBOutlet CPGraphHostingView *graphHost;
+	IBOutlet UISegmentedControl *control;
 
+@private
+	CPXYGraph *graph;
+	
 }
+@property (nonatomic, retain) IBOutlet CPGraphHostingView *graphHost;
+@property (nonatomic, retain) IBOutlet UISegmentedControl *control;
+
+-(void)reloadData;
 
 @end

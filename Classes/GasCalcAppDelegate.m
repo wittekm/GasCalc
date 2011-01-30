@@ -8,6 +8,8 @@
 
 #import "GasCalcAppDelegate.h"
 #import "Globals.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 @implementation GasCalcAppDelegate
 
@@ -71,11 +73,22 @@
 #pragma mark -
 #pragma mark UITabBarControllerDelegate methods
 
-/*
+
 // Optional UITabBarControllerDelegate method.
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
+	NSLog(@"Clicked a view controller with title %@", viewController.tabBarItem.title);
+	
+	 /* Recent */
+	if ([viewController.tabBarItem.title isEqualToString:@"Recent"])
+    {
+		[(UITableView*) viewController.view reloadData];
+    }
+	else if ([viewController.tabBarItem.title isEqualToString:@"Data"])
+    {
+		[(ThirdViewController*)viewController reloadData];
+    }
 }
-*/
+
 
 /*
 // Optional UITabBarControllerDelegate method.
