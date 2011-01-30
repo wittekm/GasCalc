@@ -20,7 +20,7 @@
 
 
 -(NSUInteger)numberOfRecords {
-	NSLog(@"Record number: %d", [[Globals sharedInstance].purchases count]);
+	NSLog(@"numberOfrecords: %d", [[Globals sharedInstance].purchases count]);
     return [[Globals sharedInstance].purchases count];
 }
 -(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot {
@@ -34,7 +34,12 @@
     {
         //num = (NSDecimalNumber *) [NSDecimalNumber numberWithInt:index + 1];
 		
-		num = (NSDecimalNumber *) [NSDecimalNumber numberWithInt:index];
+		//num = (NSDecimalNumber *) [NSDecimalNumber numberWithInt:index];
+		
+		NSDate * date = [(GasData*)[data objectAtIndex:index] date];
+		NSDate * refDate = [[Globals sharedInstance].purchases valueForKeyPath:@"@min.date"];
+		NSTimeInterval interval = [date timeIntervalSinceDate: refDate];
+		num = [NSDecimalNumber numberWithDouble:interval];
     }
     else if (fieldEnum == CPScatterPlotFieldY)
     {
@@ -43,7 +48,8 @@
 		 num = [fData objectForKey:@"close"];
 		 NSAssert([num isMemberOfClass:[NSDecimalNumber class]], @"grrr");
 		 */
-		num = [(GasData*)[data objectAtIndex:index] price];
+		NSNumber * price = [(GasData*)[data objectAtIndex:index] price];
+		num = [NSDecimalNumber decimalNumberWithDecimal:[[NSNumber numberWithFloat:([price integerValue]/ 100.0)] decimalValue]];
     }
     return num;
 }
@@ -77,8 +83,10 @@
         [graph addPlot:dataSourceLinePlot];
     }
 	
+	/*
 	NSDate *refDate = [NSDate dateWithNaturalLanguageString:@"12:00 Oct 29, 2009"];
 	NSTimeInterval oneDay = 24 * 60 * 60;
+	*/
 	
 	NSLog(@"Index of graph is %d", [[self.graphHost.layer sublayers] indexOfObject:graph]);
     
@@ -88,46 +96,70 @@
 	}
     
 	
+	/****** Plot Space ****/
+	
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
     
-	NSLog(@"max is %d", [[[Globals sharedInstance].purchases valueForKeyPath:@"@max.price"] integerValue]);
+	int maxPriceInt = [[[Globals sharedInstance].purchases valueForKeyPath:@"@max.price"] integerValue];
+	NSDecimalNumber *maxPrice = [NSDecimalNumber decimalNumberWithDecimal:[[NSNumber numberWithFloat:(maxPriceInt / 100.0)] decimalValue]];
+	NSLog(@"max is %@", [maxPrice description]);
+	
+	NSDate * maxDate = [[Globals sharedInstance].purchases valueForKeyPath:@"@max.date"];
+	NSDate * minDate = [[Globals sharedInstance].purchases valueForKeyPath:@"@min.date"];
+	NSTimeInterval interval = [maxDate timeIntervalSinceDate: minDate];
+	NSDecimalNumber * xlength = [NSDecimalNumber decimalNumberWithDecimal:[[NSNumber numberWithFloat:interval] decimalValue]];
 
+    NSDecimalNumber *high = maxPrice;
+    NSDecimalNumber *low = [NSDecimalNumber decimalNumberWithString:@"0"];
+    NSDecimalNumber *length = [high decimalNumberByAdding:[NSDecimalNumber decimalNumberWithString:@"0"]];
 	
-    NSDecimalNumber *high = [NSDecimalNumber decimalNumberWithString:@"40"];
-    NSDecimalNumber *low = [NSDecimalNumber decimalNumberWithString:@"-5"];
-    NSDecimalNumber *length = [high decimalNumberBySubtracting:low];
+	NSLog(@"Ranges: x: %d %@    y: %@ %@", 0, [xlength description], [low description], [length description]);
     
-	NSTimeInterval xLow = 0.0f;
-	
-	plotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(-0.6) length:CPDecimalFromInteger([self numberOfRecords])];
+	/*CPDecimalFromInteger([self numberOfRecords])*/
+	plotSpace.xRange = [CPPlotRange plotRangeWithLocation:[[NSDecimalNumber zero] decimalValue] length: [xlength decimalValue]];
     plotSpace.yRange = [CPPlotRange plotRangeWithLocation:[low decimalValue] length:[length decimalValue]];
     
+	
+	/******* Axes ******/
 	// Axes
     CPXYAxisSet *axisSet = (CPXYAxisSet *)graph.axisSet;
-    
+	
+	CPConstraints axesConstraints = {CPConstraintFixed, CPConstraintFixed};
+	    
     CPXYAxis *x = axisSet.xAxis;
-    x.majorIntervalLength = CPDecimalFromDouble(10.0);
+	NSDecimal xMajorIntervalSegments = CPDecimalFromInteger([[Globals sharedInstance].purchases count]);
+	
+	x.isFloatingAxis = YES;
+	x.constraints = axesConstraints;
+    x.majorIntervalLength = CPDecimalDivide([xlength decimalValue], xMajorIntervalSegments);
     x.orthogonalCoordinateDecimal = CPDecimalFromInteger(0);
-    x.minorTicksPerInterval = 1;
+    x.minorTicksPerInterval = 0;
 	
 	NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
     dateFormatter.dateStyle = kCFDateFormatterShortStyle;
     CPTimeFormatter *timeFormatter = [[[CPTimeFormatter alloc] initWithDateFormatter:dateFormatter] autorelease];
-    timeFormatter.referenceDate = refDate;
+    timeFormatter.referenceDate = minDate;
     x.labelFormatter = timeFormatter;
-	x.alternatingBandFills =  [NSArray arrayWithObjects:[[CPColor whiteColor] colorWithAlphaComponent:0.09], [NSNull null], nil];
+	//x.alternatingBandFills =  [NSArray arrayWithObjects:[[CPColor whiteColor] colorWithAlphaComponent:0.09], [NSNull null], nil];
 	
     
     CPXYAxis *y = axisSet.yAxis;
-    NSDecimal five = CPDecimalFromInteger(5);
-    y.majorIntervalLength = CPDecimalDivide([length decimalValue], five);
+	NSDecimal yMajorIntervalSegments = CPDecimalFromInteger(2);
+
+    
+    y.majorIntervalLength = CPDecimalDivide([length decimalValue], yMajorIntervalSegments);
+	y.isFloatingAxis = YES;
+	y.constraints = axesConstraints;
 	y.majorTickLineStyle = nil;
     y.minorTicksPerInterval = 5;
 	y.minorTickLineStyle = nil;
     y.orthogonalCoordinateDecimal = CPDecimalFromInteger(0);
 	y.alternatingBandFills = [NSArray arrayWithObjects:[[CPColor whiteColor] colorWithAlphaComponent:0.09], [NSNull null], nil];
 	
-	NSLog (@"DERP HERP HERP...");
+	[[graph plotAreaFrame] setPaddingBottom: 30.0];
+	[[graph plotAreaFrame] setPaddingLeft: 40.0];
+	[[graph plotAreaFrame] setPaddingTop: 20.0];
+	[[graph plotAreaFrame] setPaddingRight: 20.0];
 	
     [graph reloadData];
     
