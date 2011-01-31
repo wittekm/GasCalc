@@ -13,6 +13,7 @@
 @implementation Globals
 @synthesize purchases;
 @synthesize doPriceFieldChange;
+@synthesize	doGallonsFieldChange;
 
 + (Globals *)sharedInstance
 {
@@ -41,8 +42,8 @@ NSString * stripPunctuationGlobal(NSString * s) {
 	
 	if(dollarSign == YES) {
 		if([orig length] < 1) {
-			orig = @"$";
-			@throw(@"DERP");
+			return @"$";
+			//@throw(@"DERP");
 		}
 	}
 	
@@ -62,6 +63,6 @@ NSString * stripPunctuationGlobal(NSString * s) {
 	} else
 		trailing = lastTwoNumbers;
 	
-	return [NSString stringWithFormat:@"$%d.%@", priceIntVal/100, trailing];
+	return [NSString stringWithFormat:@"%@%d.%@", (dollarSign ? @"$" : @""), priceIntVal/100, trailing];
 }
 @end

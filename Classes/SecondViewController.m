@@ -79,11 +79,11 @@
 	[dateFormatter setDateFormat:@"MMMM dd"];
 	NSString *date = [dateFormatter stringFromDate:[data date]];
 	NSLog(@"%@", date); 
-	NSString * price = [NSString stringWithFormat:@"%d", [[data price] integerValue]];
-	NSString * gallons = [NSString stringWithFormat:@"%d", [[data gallons] integerValue]];
+	NSString * price = [Globals formatIntegerToDecimal:[[data price] description] doDollarSign:YES];
+	NSString * gallons = [Globals formatIntegerToDecimal:[[data gallons] description] doDollarSign:NO];
 	
 	cell.textLabel.text = [NSString stringWithFormat:@"%@ - %@", date, [data citystate]];
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"$%@, %@ gal", price, gallons];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"%@, %@ gal", price, gallons];
 	
     return cell;
 }

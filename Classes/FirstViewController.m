@@ -75,6 +75,29 @@ MKPlacemark *myPlacemark;
 		[doneAdder addDoneButtonTo: gallons];
 }
 
+- (IBAction)textFieldChanged:(id)sender {
+	if(sender == price) {
+		
+		if([Globals sharedInstance].doPriceFieldChange) {
+			[Globals sharedInstance].doPriceFieldChange = NO;
+			return;
+		}
+		[Globals sharedInstance].doPriceFieldChange = YES;
+		
+		price.text = [Globals formatIntegerToDecimal:price.text doDollarSign:YES];
+	}
+	else if(sender == gallons) {
+		if([Globals sharedInstance].doGallonsFieldChange) {
+			[Globals sharedInstance].doGallonsFieldChange = NO;
+			return;
+		}
+		[Globals sharedInstance].doGallonsFieldChange = YES;
+		
+		gallons.text = [Globals formatIntegerToDecimal:gallons.text doDollarSign:NO];
+	}
+}
+
+
 - (IBAction)priceTextFieldChanged {
 	
 	if([Globals sharedInstance].doPriceFieldChange) {
@@ -83,7 +106,9 @@ MKPlacemark *myPlacemark;
 	}
 	[Globals sharedInstance].doPriceFieldChange = YES;
 	
-	NSLog(@"hi");
+	price.text = [Globals formatIntegerToDecimal:price.text doDollarSign:YES];
+	
+	/* 
 	NSString* temp = stripPunctuation(price.text);
 	NSNumber * priceAsNumber = [[[NSNumber alloc] initWithInt:[temp integerValue]] autorelease];
 	
@@ -109,6 +134,7 @@ MKPlacemark *myPlacemark;
 		trailing = lastTwoNumbers;
 	
 	price.text = [NSString stringWithFormat:@"$%d.%@", priceIntVal/100, trailing];
+	 */
 
 		
 	/*

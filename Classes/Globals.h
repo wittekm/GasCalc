@@ -12,11 +12,13 @@
 @interface Globals : NSObject {
 	NSMutableArray * purchases;
 	BOOL doPriceFieldChange;
+	BOOL doGallonsFieldChange;
 	// place global variables here
 }
 + (Globals *)sharedInstance;
 + (NSString*) formatIntegerToDecimal:(NSString*)orig doDollarSign:(BOOL)dollarSign;
 
 @property BOOL doPriceFieldChange;
+@property BOOL doGallonsFieldChange;
 @property (retain) NSMutableArray * purchases;
 @end

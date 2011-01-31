@@ -34,6 +34,6 @@
 
 - (IBAction)addPurchase;
 - (IBAction)textFieldTouched:(id)sender;
-- (IBAction)priceTextFieldChanged;
+- (IBAction)textFieldChanged:(id)sender;
 
 @end
