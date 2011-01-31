@@ -15,12 +15,14 @@
 	NSNumber * gallons;
 	NSDate * date;
 	CLLocation * location;
+	NSString * citystate;
 }
 
 @property (retain) NSNumber * price;
 @property (retain) NSNumber * gallons;
 @property (retain) NSDate * date;
 @property (retain) CLLocation * location;
+@property (retain) NSString * citystate;
 
 @end
 

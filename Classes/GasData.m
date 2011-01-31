@@ -7,7 +7,6 @@
 //
 
 #import "GasData.h"
-#import <CoreLocation/CoreLocation.h>
 
 
 @implementation GasData
@@ -16,6 +15,7 @@
 @synthesize gallons;
 @synthesize date;
 @synthesize location;
+@synthesize citystate;
 
 
 @end

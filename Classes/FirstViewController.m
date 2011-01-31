@@ -10,6 +10,9 @@
 #import "Globals.h"
 #import "NumberPadDone.h"
 #import <CoreLocation/CoreLocation.h>
+#import <MapKit/MKReverseGeocoder.h>
+#import <MapKit/MKPlacemark.h>
+
 
 
 @implementation FirstViewController
@@ -19,6 +22,7 @@
 @synthesize date;
 @synthesize addButton;
 @synthesize locationManager;
+@synthesize geocoder;
 
 NSString * stripPunctuation(NSString * s) {
 	NSString* a=[[[NSString alloc] initWithData:[s dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES] encoding:NSASCIIStringEncoding] autorelease];
@@ -28,15 +32,29 @@ NSString * stripPunctuation(NSString * s) {
 	return a;
 }
 
+MKPlacemark *myPlacemark;
+
 - (IBAction)addPurchase{
-	
 	GasData * addData = [[[GasData alloc] init] autorelease];
+	
 	[addData setPrice: [[NSNumber alloc] initWithInt:[ stripPunctuation([price text]) integerValue]]];
 	[addData setGallons: [[NSNumber alloc] initWithInt:[[gallons text] integerValue]]];
 	[addData setDate: [date date]];
 	[addData setLocation: [locationManager location]];
 	
+	if(myPlacemark) {
+		NSString * city = [[NSString alloc] initWithString: [myPlacemark locality]];
+		NSString * state = [[NSString alloc] initWithString: [myPlacemark administrativeArea]];
+		NSString * locationInText = [[NSString alloc] initWithFormat:@"%@, %@", city, state];
+		[addData setCitystate:locationInText];
+		
+	} else
+		[addData setCitystate:@"Location Unknown..."];
+	
+	
 	[[[Globals sharedInstance] purchases] addObject:addData];
+	NSSortDescriptor *dateSorter = [[[NSSortDescriptor alloc] initWithKey:@"date" ascending:YES] autorelease];
+	[[Globals sharedInstance].purchases sortUsingDescriptors:[NSArray arrayWithObject:dateSorter]];
 	
 	/* hide the keyboards */
 	[price resignFirstResponder];
@@ -124,7 +142,8 @@ NSString * stripPunctuation(NSString * s) {
 	doneAdder = [[NumberPadDone alloc] init];
 	self.locationManager = [[[CLLocationManager alloc] init] autorelease];
     locationManager.delegate = self;
-	[locationManager startUpdatingLocation];	
+	locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
+	[locationManager startUpdatingLocation];
 	//data = [[[GasData init] alloc] autorelease];
 }
 
@@ -153,4 +172,31 @@ NSString * stripPunctuation(NSString * s) {
     [super dealloc];
 }
 
+- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFailWithError:(NSError *)error {
+	NSLog(@"reverseGeocoder didFailWithError:%@", error);
+	
+}
+
+- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFindPlacemark:(MKPlacemark *)placemark {
+	NSLog(@"Geocoder works yo");
+	myPlacemark = placemark;
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+	NSLog(@"Insie didUpdateToLocation");
+	
+	if(!self.geocoder){
+		self.geocoder = [[[MKReverseGeocoder alloc] initWithCoordinate:newLocation.coordinate] autorelease];
+		geocoder.delegate = self;
+	}
+	if ((newLocation == oldLocation) && (myPlacemark)){
+	}
+	else{
+		[geocoder start];
+	}
+}
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error 
+{
+	NSLog(@"locationManager:%@ didFailWithError:%@", manager, error);
+}
 @end

@@ -33,6 +33,8 @@
 		54CA973B12E78A1B00AE9260 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CA973A12E78A1B00AE9260 /* ThirdView.xib */; };
 		54CA974812E78D7700AE9260 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA974712E78D7700AE9260 /* SecondViewController.m */; };
 		54CA974B12E78D9000AE9260 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA974A12E78D9000AE9260 /* ThirdViewController.m */; };
+		54ECA92412F609BD00E6256E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECA92312F609BD00E6256E /* Default.png */; };
+		54ECA94C12F610F700E6256E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ECA94B12F610F700E6256E /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		54CA974912E78D9000AE9260 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		54CA974A12E78D9000AE9260 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		54DA0CF312EE0B0F00768971 /* GasCalcApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GasCalcApp-Info.plist"; sourceTree = "<group>"; };
+		54ECA92312F609BD00E6256E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54ECA94B12F610F700E6256E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* GasCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GasCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +90,7 @@
 				50E0A59812F4DAA300C2EF4B /* QuartzCore.framework in Frameworks */,
 				542D859812F0AE2F001A5695 /* CoreLocation.framework in Frameworks */,
 				542D859C12F0AE35001A5695 /* CoreData.framework in Frameworks */,
+				54ECA94C12F610F700E6256E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +137,7 @@
 				54DA0CF312EE0B0F00768971 /* GasCalcApp-Info.plist */,
 				542D859712F0AE2F001A5695 /* CoreLocation.framework */,
 				542D859B12F0AE35001A5695 /* CoreData.framework */,
+				54ECA94B12F610F700E6256E /* MapKit.framework */,
 			);
 			name = GasCalc;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				54ECA92312F609BD00E6256E /* Default.png */,
 				501F06F812EE09DE00B3C773 /* graph.png */,
 				505B855612EDE4FE003C044E /* DoneDown.png */,
 				505B855712EDE4FE003C044E /* DoneDown3.png */,
@@ -237,6 +244,7 @@
 				505B855C12EDE4FE003C044E /* DoneUp.png in Resources */,
 				505B855D12EDE4FE003C044E /* DoneUp3.png in Resources */,
 				501F06F912EE09DE00B3C773 /* graph.png in Resources */,
+				54ECA92412F609BD00E6256E /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

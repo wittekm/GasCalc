@@ -7,16 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MKReverseGeocoder.h>
 #import "NumberPadDone.h"
 #import "GasData.h"
 
 
-@interface FirstViewController : UIViewController <UITextFieldDelegate> {
+@interface FirstViewController : UIViewController <UITextFieldDelegate, CLLocationManagerDelegate, MKReverseGeocoderDelegate> {
 	IBOutlet UITextField * price;
 	IBOutlet UITextField * gallons;
 	
 	IBOutlet UIDatePicker * date;
 	IBOutlet UIButton * addButton;
+	
+	MKReverseGeocoder * geocoder;
 	
 	GasData * data;
 	NumberPadDone * doneAdder;
@@ -27,6 +30,7 @@
 @property (retain) IBOutlet UIDatePicker * date;
 @property (retain) IBOutlet UIButton * addButton;
 @property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, retain) MKReverseGeocoder *geocoder;
 
 - (IBAction)addPurchase;
 - (IBAction)textFieldTouched:(id)sender;
