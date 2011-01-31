@@ -88,11 +88,11 @@
 	NSLog(@"Clicked a view controller with title %@", viewController.tabBarItem.title);
 	
 	 /* Recent */
-	if ([viewController.tabBarItem.title isEqualToString:@"Recent"])
+	if ([viewController.tabBarItem.title isEqualToString:@"List"])
     {
 		[(UITableView*) viewController.view reloadData];
     }
-	else if ([viewController.tabBarItem.title isEqualToString:@"Data"])
+	else if ([viewController.tabBarItem.title isEqualToString:@"Graph"])
     {
 		[(ThirdViewController*)viewController reloadData];
     }

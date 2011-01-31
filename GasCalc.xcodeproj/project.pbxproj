@@ -35,6 +35,8 @@
 		54CA974B12E78D9000AE9260 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA974A12E78D9000AE9260 /* ThirdViewController.m */; };
 		54ECA92412F609BD00E6256E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECA92312F609BD00E6256E /* Default.png */; };
 		54ECA94C12F610F700E6256E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ECA94B12F610F700E6256E /* MapKit.framework */; };
+		54ECAA5512F6350800E6256E /* data.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECAA5412F6350800E6256E /* data.png */; };
+		54ECAA5B12F636AD00E6256E /* recenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 54ECAA5A12F636AD00E6256E /* recenticon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		54DA0CF312EE0B0F00768971 /* GasCalcApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GasCalcApp-Info.plist"; sourceTree = "<group>"; };
 		54ECA92312F609BD00E6256E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		54ECA94B12F610F700E6256E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		54ECAA5412F6350800E6256E /* data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data.png; sourceTree = "<group>"; };
+		54ECAA5A12F636AD00E6256E /* recenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recenticon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* GasCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GasCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,8 +162,10 @@
 				501F06F812EE09DE00B3C773 /* graph.png */,
 				505B855612EDE4FE003C044E /* DoneDown.png */,
 				505B855712EDE4FE003C044E /* DoneDown3.png */,
+				54ECAA5A12F636AD00E6256E /* recenticon.png */,
 				505B855812EDE4FE003C044E /* DoneUp.png */,
 				505B855912EDE4FE003C044E /* DoneUp3.png */,
+				54ECAA5412F6350800E6256E /* data.png */,
 				5409A94812EB9FA400D3EB9B /* greenButton.png */,
 				540B68A312E8932B00A0EDE5 /* AddIcon.png */,
 				540B689D12E88AF300A0EDE5 /* SpeedIcon.png */,
@@ -245,6 +251,8 @@
 				505B855D12EDE4FE003C044E /* DoneUp3.png in Resources */,
 				501F06F912EE09DE00B3C773 /* graph.png in Resources */,
 				54ECA92412F609BD00E6256E /* Default.png in Resources */,
+				54ECAA5512F6350800E6256E /* data.png in Resources */,
+				54ECAA5B12F636AD00E6256E /* recenticon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
