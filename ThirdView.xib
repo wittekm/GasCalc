@@ -64,51 +64,6 @@
 						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
-					<object class="IBUISegmentedControl" id="649917289">
-						<reference key="NSNextResponder" ref="698003332"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 16}, {280, 30}}</string>
-						<reference key="NSSuperview" ref="698003332"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBSegmentControlStyle">2</int>
-						<int key="IBNumberOfSegments">3</int>
-						<int key="IBSelectedSegmentIndex">0</int>
-						<object class="NSArray" key="IBSegmentTitles">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>Week</string>
-							<string>Month</string>
-							<string>Overall</string>
-						</object>
-						<object class="NSMutableArray" key="IBSegmentWidths">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<real value="0.0"/>
-							<real value="0.0"/>
-							<real value="0.0"/>
-						</object>
-						<object class="NSMutableArray" key="IBSegmentEnabledStates">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<boolean value="YES"/>
-							<boolean value="YES"/>
-							<boolean value="YES"/>
-						</object>
-						<object class="NSMutableArray" key="IBSegmentContentOffsets">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>{0, 0}</string>
-							<string>{0, 0}</string>
-							<string>{0, 0}</string>
-						</object>
-						<object class="NSMutableArray" key="IBSegmentImages">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="NSNull" id="4"/>
-							<reference ref="4"/>
-							<reference ref="4"/>
-						</object>
-						<object class="NSColor" key="IBTintColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC40ODkxMzA0MzQ4IDAuNDg5MTMwNDM0OCAwLjQ4OTEzMDQzNDgAA</bytes>
-						</object>
-					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
 				<reference key="NSSuperview"/>
@@ -138,14 +93,6 @@
 					</object>
 					<int key="connectionID">25</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">control</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="649917289"/>
-					</object>
-					<int key="connectionID">28</int>
-				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -173,7 +120,6 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="523339886"/>
-							<reference ref="649917289"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -184,11 +130,6 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="218901519"/>
 						</object>
-						<reference key="parent" ref="698003332"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">27</int>
-						<reference key="object" ref="649917289"/>
 						<reference key="parent" ref="698003332"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -209,7 +150,6 @@
 					<string>24.IBViewBoundsToFrameTransform</string>
 					<string>26.IBPluginDependency</string>
 					<string>26.IBViewBoundsToFrameTransform</string>
-					<string>27.IBPluginDependency</string>
 					<string>8.IBEditorWindowLastContentRect</string>
 					<string>8.IBPluginDependency</string>
 					<string>8.IBViewBoundsToFrameTransform</string>
@@ -227,7 +167,6 @@
 					<object class="NSAffineTransform">
 						<bytes key="NSTransformStruct">AQAAAABCcAAAA</bytes>
 					</object>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{427, 193}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">

@@ -63,7 +63,7 @@
     	graph = [[CPXYGraph alloc] initWithFrame:CGRectZero];
         CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
         [graph applyTheme:theme];
-        graph.paddingTop = 55.0;
+        graph.paddingTop = 25.0;
         graph.paddingBottom = 10.0;
         graph.paddingLeft = 5.0;
         graph.paddingRight = 5.0;
@@ -147,7 +147,7 @@
 	NSDecimal yMajorIntervalSegments = CPDecimalFromInteger(2);
 
     
-    y.majorIntervalLength = CPDecimalDivide([length decimalValue], yMajorIntervalSegments);
+    y.majorIntervalLength = CPDecimalFromInteger(5); //CPDecimalDivide([length decimalValue], yMajorIntervalSegments);
 	y.isFloatingAxis = YES;
 	y.constraints = axesConstraints;
 	y.majorTickLineStyle = nil;
@@ -159,7 +159,7 @@
 	[[graph plotAreaFrame] setPaddingBottom: 30.0];
 	[[graph plotAreaFrame] setPaddingLeft: 40.0];
 	[[graph plotAreaFrame] setPaddingTop: 20.0];
-	[[graph plotAreaFrame] setPaddingRight: 20.0];
+	[[graph plotAreaFrame] setPaddingRight: 25.0];
 	
     [graph reloadData];
     

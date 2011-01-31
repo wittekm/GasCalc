@@ -15,6 +15,7 @@
 	// place global variables here
 }
 + (Globals *)sharedInstance;
++ (NSString*) formatIntegerToDecimal:(NSString*)orig doDollarSign:(BOOL)dollarSign;
 
 @property BOOL doPriceFieldChange;
 @property (retain) NSMutableArray * purchases;
